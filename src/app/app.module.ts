@@ -10,6 +10,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavContainerComponent } from './nav-container/nav-container.component';
 import { FooterComponent } from './footer/footer.component';
+import { WeAreProvideComponent } from './about-us/we-are-provide/we-are-provide.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     OurServicesComponent,
     ContactUsComponent,
     NavContainerComponent,
-    FooterComponent
+    FooterComponent,
+    WeAreProvideComponent
   ],
   imports: [
     BrowserModule,
