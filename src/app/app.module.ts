@@ -16,6 +16,7 @@ import { EnterPriseApplicationComponent } from './our-services/enter-prise-appli
 import { PersonalApplicationComponent } from './our-services/personal-application/personal-application.component';
 import { MobileApplicationComponent } from './our-services/mobile-application/mobile-application.component';
 import { SeoServicesComponent } from './our-services/seo-services/seo-services.component';
+import { SystemSecurityComponent } from './our-services/system-security/system-security.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SeoServicesComponent } from './our-services/seo-services/seo-services.c
     EnterPriseApplicationComponent,
     PersonalApplicationComponent,
     MobileApplicationComponent,
-    SeoServicesComponent
+    SeoServicesComponent,
+    SystemSecurityComponent
   ],
   imports: [
     BrowserModule,
