@@ -14,6 +14,7 @@ import { WeAreProvideComponent } from './about-us/we-are-provide/we-are-provide.
 import { WindowsFormApplicationComponent } from './our-services/windows-form-application/windows-form-application.component';
 import { EnterPriseApplicationComponent } from './our-services/enter-prise-application/enter-prise-application.component';
 import { PersonalApplicationComponent } from './our-services/personal-application/personal-application.component';
+import { MobileApplicationComponent } from './our-services/mobile-application/mobile-application.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PersonalApplicationComponent } from './our-services/personal-applicatio
     WeAreProvideComponent,
     WindowsFormApplicationComponent,
     EnterPriseApplicationComponent,
-    PersonalApplicationComponent
+    PersonalApplicationComponent,
+    MobileApplicationComponent
   ],
   imports: [
     BrowserModule,
