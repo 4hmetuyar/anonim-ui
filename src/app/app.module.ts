@@ -17,6 +17,7 @@ import { PersonalApplicationComponent } from './our-services/personal-applicatio
 import { MobileApplicationComponent } from './our-services/mobile-application/mobile-application.component';
 import { SeoServicesComponent } from './our-services/seo-services/seo-services.component';
 import { SystemSecurityComponent } from './our-services/system-security/system-security.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SystemSecurityComponent } from './our-services/system-security/system-s
     PersonalApplicationComponent,
     MobileApplicationComponent,
     SeoServicesComponent,
-    SystemSecurityComponent
+    SystemSecurityComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
