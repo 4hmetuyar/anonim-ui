@@ -15,6 +15,7 @@ import { WindowsFormApplicationComponent } from './our-services/windows-form-app
 import { EnterPriseApplicationComponent } from './our-services/enter-prise-application/enter-prise-application.component';
 import { PersonalApplicationComponent } from './our-services/personal-application/personal-application.component';
 import { MobileApplicationComponent } from './our-services/mobile-application/mobile-application.component';
+import { SeoServicesComponent } from './our-services/seo-services/seo-services.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MobileApplicationComponent } from './our-services/mobile-application/mo
     WindowsFormApplicationComponent,
     EnterPriseApplicationComponent,
     PersonalApplicationComponent,
-    MobileApplicationComponent
+    MobileApplicationComponent,
+    SeoServicesComponent
   ],
   imports: [
     BrowserModule,
