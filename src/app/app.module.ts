@@ -11,6 +11,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavContainerComponent } from './nav-container/nav-container.component';
 import { FooterComponent } from './footer/footer.component';
 import { WeAreProvideComponent } from './about-us/we-are-provide/we-are-provide.component';
+import { WindowsFormApplicationComponent } from './our-services/windows-form-application/windows-form-application.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { WeAreProvideComponent } from './about-us/we-are-provide/we-are-provide.
     ContactUsComponent,
     NavContainerComponent,
     FooterComponent,
-    WeAreProvideComponent
+    WeAreProvideComponent,
+    WindowsFormApplicationComponent
   ],
   imports: [
     BrowserModule,
