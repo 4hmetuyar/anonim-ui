@@ -18,6 +18,7 @@ import { MobileApplicationComponent } from './our-services/mobile-application/mo
 import { SeoServicesComponent } from './our-services/seo-services/seo-services.component';
 import { SystemSecurityComponent } from './our-services/system-security/system-security.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BlogComponent } from './blog/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MobileApplicationComponent,
     SeoServicesComponent,
     SystemSecurityComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
